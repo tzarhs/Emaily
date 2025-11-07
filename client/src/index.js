@@ -8,7 +8,7 @@ import reduxThunk from "redux-thunk";
 import App from "./components/App";
 import reducers from "./reducers";
 
-const store = createStore(reducers, [], applyMiddleware(reduxThunk));
+const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
 
 ReactDOM.render(
   <Provider store={store}>
@@ -16,3 +16,5 @@ ReactDOM.render(
   </Provider>,
   document.querySelector("#root")
 );
+
+console.log("Stripe key:", process.env.REACT_APP_STRIPE_KEY);
