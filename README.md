@@ -11,7 +11,6 @@ This project is a full-stack web application built as part of an advanced traini
 * **Database:** MongoDB
 * **Authentication:** Google OAuth
 * **Payments:** Stripe
-* **Email Delivery:** Email provider integration (ex: SendGrid)
 
 ## Main Features
 
