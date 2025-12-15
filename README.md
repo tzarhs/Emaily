@@ -2,24 +2,25 @@
 
 ## Overview
 
-This project is a full-stack web application built as part of an advanced training course in React, Redux, Node, and MongoDB. The goal is to create a production-style feedback collection platform that allows authenticated users to send mass emails to lists of recipients and collect structured feedback.
+A full-stack web application feedback collection platform that allows authenticated users to send mass emails to lists of recipients and collect structured feedback.
+Built as part of an advanced training course in React, Redux, Node, and MongoDB.
 
 ## Tech Stack
 
-* **Front-End:** React, Redux, React Router
-* **Back-End:** Node.js, Express
-* **Database:** MongoDB
-* **Authentication:** Google OAuth
-* **Payments:** Stripe
+- **Front-End:** React, Redux, React Router
+- **Back-End:** Node.js, Express
+- **Database:** MongoDB
+- **Authentication:** Google OAuth
+- **Payments:** Stripe
 
 ## Main Features
 
-* Full OAuth based authentication flow
-* Secure API key and environment configuration
-* Manage user credits with Stripe payments
-* Build & store mailing lists
-* Send bulk campaign emails to users
-* Track responses / feedback
+- Full OAuth based authentication flow
+- Secure API key and environment configuration
+- Manage user credits with Stripe payments
+- Build & store mailing lists
+- Send bulk campaign emails to users
+- Track responses / feedback
 
 ---
 
