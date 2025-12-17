@@ -33,11 +33,11 @@ class Header extends Component {
   render() {
     return (
       <nav>
-        <div className="nav-wrapper">
+        <div className="nav-wrapper black">
           <Link
             to={this.props.auth ? "/surveys" : "/"}
             className="
-            left
+            center
             brand-logo"
           >
             Emaily

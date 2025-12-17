@@ -12,7 +12,7 @@ const Dashboard = () => {
           to="/surveys/new"
           class="btn-floating btn-large waves-effect waves-light red"
         >
-          <i class="material-icons">add</i>
+          <i class="material-icons black">add</i>
         </Link>
       </div>
     </div>
